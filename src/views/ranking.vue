@@ -127,79 +127,8 @@
             </div>
           </div>
         </div>
-
-        <!-- 曲风榜 -->
-        <div class="mt-[6vw] pr-[4vw] box-border">
-          <h3 class="font-[800]">曲风榜</h3>
-          <div class="flex items-center justify-between mt-[4vw] flex-wrap">
-            <div
-              class="w-[29vw] mb-[2vw] h-[29vw] rounded-[8px] bg-red-700 flex items-center justify-center text-[#fff] relative"
-            >
-              民谣榜
-              <Icon
-                icon="ph:play-fill"
-                style="color: white"
-                class="absolute bottom-[2vw] right-[3vw] text-[5vw]"
-              />
-            </div>
-          </div>
-        </div>
-
-        <!-- 全球榜 -->
-        <div class="mt-[6vw] pr-[4vw] box-border">
-          <h3 class="font-[800]">全球榜</h3>
-          <div class="flex items-center justify-between mt-[4vw] flex-wrap">
-            <div
-              class="w-[29vw] mb-[2vw] h-[29vw] rounded-[8px] bg-red-700 flex items-center justify-center text-[#fff] relative"
-            >
-              民谣榜
-              <Icon
-                icon="ph:play-fill"
-                style="color: white"
-                class="absolute bottom-[2vw] right-[3vw] text-[5vw]"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- 语种绑 -->
-        <div class="mt-[6vw] pr-[4vw] box-border">
-          <h3 class="font-[800]">语种绑</h3>
-          <div class="flex items-center justify-between mt-[4vw] flex-wrap">
-            <div
-              class="w-[29vw] mb-[2vw] h-[29vw] rounded-[8px] bg-red-700 flex items-center justify-center text-[#fff] relative"
-            >
-              民谣榜
-              <Icon
-                icon="ph:play-fill"
-                style="color: white"
-                class="absolute bottom-[2vw] right-[3vw] text-[5vw]"
-              />
-            </div>
-          </div>
-        </div>
-        <!-- 8702982391 -->
-        <!-- 特色榜 -->
-        <div class="mt-[6vw] pr-[4vw] box-border">
-          <h3 class="font-[800]">特色榜</h3>
-          <div class="flex items-center justify-between mt-[4vw] flex-wrap">
-            <div>
-              <div
-                class="w-[29vw] mb-[2vw] h-[29vw] rounded-[8px] bg-red-700 flex items-center justify-center text-[#fff] relative"
-              >
-                <Icon
-                  icon="ph:play-fill"
-                  style="color: white"
-                  class="absolute bottom-[2vw] right-[3vw] text-[5vw]"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
       </van-tab>
       <van-tab title="精选"> </van-tab>
-      <van-tab title="曲风">功能开发中</van-tab>
-      <van-tab title="全球">功能开发中</van-tab>
-      <van-tab title="语种">功能开发中</van-tab>
     </van-tabs>
   </div>
 </template>
