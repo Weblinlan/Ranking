@@ -1,15 +1,12 @@
 <template>
   <div class="pt-[4vw] pl-[4vw] bg-[#eef0f5]">
-    <!-- title -->
     <div class="h-[6vw] flex items-center justify-between">
       <Icon icon="uiw:left" />
       <span>排行榜</span>
       <div class="w-[37px]"></div>
     </div>
-    <!-- 内容 -->
     <van-tabs v-model:active="active">
       <van-tab title="官方">
-        <!-- 榜单推荐 -->
         <div class="mt-[6vw] pr-[4vw] box-border">
           <h3 class="font-[800]">榜单推荐</h3>
           <div class="flex items-center bg justify-between mt-[4vw]">
@@ -45,7 +42,6 @@
             </div>
           </div>
         </div>
-        <!-- 官方榜 -->
         <div class="mt-[6vw] pr-[4vw] box-border">
           <h3 class="font-[800]">官方榜</h3>
           <div
@@ -56,7 +52,6 @@
             <div
               class="w-[91vw] rounded-[8px] my-[3vw] py-[4vw] pl-[5vw] pr-[2vw] bg-white"
             >
-              <!-- title -->
               <div class="flex justify-between">
                 <div>
                   <h3 class="font-[800]">
@@ -69,7 +64,6 @@
                   }}</span>
                 </div>
               </div>
-              <!-- 列表 -->
               <div class="flex mt-[4vw] justify-between">
                 <div class="flex items-center w-[29vw] justify-center">
                   <img
@@ -105,8 +99,6 @@
             </div>
           </div>
         </div>
-
-        <!-- 精选榜 -->
         <div class="mt-[6vw] pr-[4vw] box-border">
           <h3 class="font-[800]">精选榜</h3>
           <div class="flex items-center justify-between mt-[4vw] flex-wrap">
